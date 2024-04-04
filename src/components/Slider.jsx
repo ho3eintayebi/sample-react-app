@@ -1,10 +1,10 @@
-import {Swiper,SwiperSlide} from 'swiper/swiper-react.mjs';
-import 'swiper/swiper.scss';
+import {Swiper,SwiperSlide} from 'swiper/react';
+import 'swiper/css';
 import { Navigation, Pagination, Scrollbar, A11y , Autoplay } from 'swiper/modules';
 import './Slider.css'
-import 'swiper/modules/navigation.scss';
-import 'swiper/modules/pagination.scss';
-import 'swiper/modules/scrollbar.scss';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 export default function Slider(){
     return(
