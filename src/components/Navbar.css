@@ -1,0 +1,46 @@
+.navbar{
+    width: 95vw;
+    height: 70px;
+    position:absolute;
+    left: 70px;
+    top: 0px;
+    background-color: #252525;
+    z-index: 998;
+}
+.search-icon{
+    float: right;
+    width: 25px;
+    height: 25px;
+    color: white;
+    position: relative;
+    right: 120px;
+    top: 15px;
+    background-color: #18453B;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+.input-navbar{
+    width: 10vw;
+    height: 40px;
+    float: right;
+    position: relative;
+    right: 150px;
+    top: 15px;
+    border: none;
+    border-radius: 5px;
+    transition-property:width;
+    transition-duration: 1s;
+}
+.input-navbar2{
+    width: 30vw;
+    height: 40px;
+    float: right;
+    position: relative;
+    right: 150px;
+    top: 15px;
+    border: none;
+    border-radius: 5px;
+    transition-property:width;
+    transition-duration: 1s;
+}
